@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <title>Personal Diary</title>
+  <link rel="stylesheet" href="diary.css">
+</head>
+<body>
+  <header>
+    <h1>📖 Personal Diary</h1>
+  </header>
+
+  <main>
+    <div class="entry-form">
+      <div class="date-display" id="todayDate"></div>
+      <textarea id="diaryInput" placeholder="Write your thoughts here..."></textarea>
+      <button id="saveBtn">Save Entry</button>
+    </div>
+
+    <section class="entries" id="entriesList">
+     <h2>Your Past Entries</h2>
+      <!-- Entries will be injected here -->
+    </section>
+  </main>
+
+  <script src="diary.js"></script>
+</body>
+</html>

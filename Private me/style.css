@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffeef2; /* Matching the creamy-pink background */
+  color: #4a4a4a;
+  text-align: center;
+}
+
+header {
+  padding: 50px 20px 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #cc3366;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.style-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.style-card {
+  background: white;
+  width: 250px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.style-card:hover {
+  transform: translateY(-10px);
+  background: #ffe0e6;
+}
+
+.style-card h2 {
+  color: #d6336c;
+  margin-bottom: 15px;
+}
+
+.style-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #999;
+}
+.style-card {
+  text-decoration: none; /* remove underline */
+  color: inherit; /* use normal text color */
+  background: white;
+  width: 250px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.style-card:hover {
+  transform: translateY(-10px);
+  background: #ffe0e6;
+}

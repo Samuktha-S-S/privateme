@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+    color: #4a148c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .home-link {
+    text-decoration: none;
+    color: #880e4f;
+    font-weight: bold;
+  }
+  
+  /* Entry Form */
+  .entry-form {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(136,14,79,0.2);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .date-display {
+    font-size: 1rem;
+    color: #ad1457;
+  }
+  
+  textarea {
+    
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    min-height: 390px;
+    padding: 2px;
+    font-size: 1rem;
+    border: 2px solid #f48fb1;
+    border-radius: 12px;
+    resize: vertical;
+    outline: none;
+  }
+  
+  button#saveBtn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  button#saveBtn:hover {
+    background: #ad1457;
+  }
+  
+  /* Past Entries */
+  .entries {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .entries h2 {
+    margin-bottom: 10px;
+    color: #6a1b9a;
+  }
+  
+  .entry-card {
+    background: white;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 6px 20px rgba(136,14,79,0.1);
+  }
+  
+  .entry-card .entry-date {
+    font-size: 0.9rem;
+    color: #ad1457;
+    margin-bottom: 8px;
+  }
+  
+  .entry-card .entry-text {
+    white-space: pre-wrap;
+    font-size: 1rem;
+    color: #3b3b3b;
+  }
+  

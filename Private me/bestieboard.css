@@ -1,0 +1,47 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffece6;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 220px;
+  }
+  
+  .image-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .delete-btn {
+    margin-top: 10px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff6f0; /* creamy skin color */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffe0e6;
+    border-radius: 0 0 30px 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 38px;
+    color: #d94f70;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.fashion-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px;
+}
+
+.fashion-category {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.fashion-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+}
+
+.fashion-category h2 {
+    color: #d94f70;
+    margin-bottom: 15px;
+}
+
+.fashion-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fashion-category li {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.fashion-gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+.fashion-gallery h2 {
+    color: #d94f70;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    font-style: italic;
+    background-color: #ffe0e6;
+    margin-top: 60px;
+    border-radius: 30px 30px 0 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #d94f70;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #d94f70;
+    padding: 8px 16px;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #d94f70;
+    color: white;
+}

@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #d81b60;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day {
+  background: #fce4ec;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 60px;
+  cursor: pointer;
+  position: relative;
+}
+
+.day:hover {
+  background: #f8bbd0;
+}
+
+.day .date {
+  font-size: 0.9rem;
+  color: #555;
+}
+.controls {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #f48fb1;
+  margin: 0 5px;
+  background: #fce4ec;
+  color: #d81b60;
+}
+
+
+.emoji {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.emoji-picker {
+  position: absolute;
+  display: none;
+  background: white;
+  border: 2px solid #f48fb1;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.emoji-picker span {
+  font-size: 1.4rem;
+  margin: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>🌈 Mood Tracker</h1>
+    <div class="controls">
+      <select id="monthSelect"></select>
+      <select id="yearSelect"></select>
+    </div>
+    <div class="calendar" id="calendar"></div>
+  </div>
+
+  <!-- Emoji Picker -->
+  <div id="emojiPicker" class="emoji-picker">
+    <span onclick="selectMood('😄')">😄</span>
+    <span onclick="selectMood('😊')">😊</span>
+    <span onclick="selectMood('😢')">😢</span>
+    <span onclick="selectMood('😡')">😡</span>
+    <span onclick="selectMood('😍')">😍</span>
+    <span onclick="selectMood('😴')">😴</span>
+    <span onclick="selectMood('🤩')">🤩</span>
+  </div>
+
+  <script src="mood.js"></script>
+</body>
+</html>
